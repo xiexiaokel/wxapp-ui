@@ -1,0 +1,16 @@
+/* components/circleCountDown/circleCountDown.wxss */
+.circle-count-down{
+  position: relative;
+}
+.count-text{
+  position: absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#ffa800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,4 @@
+<!--components/countDown/countDown.wxml-->
+<view class="count-down" style="background:{{bgColor}}" wx:if="{{showCount}}">
+   <text class="count-text" animation="{{animationData}}">{{count}}</text>
+</view>

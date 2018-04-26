@@ -1,0 +1,9 @@
+<!--components/circleCountDown/circleCountDown.wxml-->
+<view class="circle-count-down" style="width:{{cvsWidth}}px;height:{{cvsHeight}}px;" wx:if="{{showCount}}">
+  <canvas canvas-id="myCanvas" style='width:{{cvsWidth}}px;height:{{cvsHeight}}px'/>
+  <view class="count-text">
+    <text style="font-size:{{cvsWidth}}rpx" wx:if="{{limitTime>0}}" animation="{{animationData}}">{{limitTime}}</text>
+     <text style="font-size:{{cvsWidth/2}}rpx;color:#e50000" wx:else>超时</text> 
+  </view>
+</view>
+
