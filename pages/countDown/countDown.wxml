@@ -1,0 +1,7 @@
+<!--pages/countDown/countDown.wxml-->
+<view class="container">
+  <!-- 页面倒计时 -->
+  <countDown count="3" bgColor="#f00" bindtimeOver="myCustomEvent"></countDown>
+  <!-- 环状带动画canvas倒计时 -->
+  <circleCountDown cvsWidth="200" cvsHeight="200" limitTime="10" bindtimeOver="myEvent" stopCount="{{stopCount}}"></circleCountDown>
+</view>

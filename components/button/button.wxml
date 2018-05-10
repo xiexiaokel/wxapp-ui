@@ -1,0 +1,4 @@
+<!--components/button/button.wxml-->
+
+<button style="background-color:none;border:2rpx {{borderColor}} solid;color:{{fontColor}};height:{{height}}rpx;line-height:{{height}}rpx;border-radius:{{radius}}rpx;font-size:{{fontSize}}rpx;" open-type="{{openType}}" data-key="{{dataKey}}" disabled="{{disabled}}" hover-class='button-hover'  bindtap="buttonTap" binderror="buttonTap" bindcontact='buttonTap' bindgetuserinfo='buttonTap' bindgetphonenumber="buttonTap" wx:if="{{hollow}}">{{title}}</button>
+<button style="background-color:{{bgColor}};color:{{fontColor}};height:{{height}}rpx;line-height:{{height}}rpx;border-radius:{{radius}}rpx;font-size:{{fontSize}}rpx;" disabled="{{disabled}}" data-key="{{dataKey}}" open-type="{{openType}}" hover-class='button-hover' bindtap="buttonTap" bindcontact='buttonTap' binderrror="buttonTap" bindgetuserinfo='buttonTap' bindgetphonenumber="buttonTap" wx:else>{{title}}</button>

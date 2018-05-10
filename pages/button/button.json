@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "Button":"../../components/button/button"
+  }
+}

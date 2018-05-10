@@ -1,8 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-    <!-- 倒计时 -->
-    <countDown count="3" bgColor="#f00"  bindcountOver="myCustomEvent"></countDown>  
-    <!-- 环状带动画倒计时 -->
-   <circleCountDown cvsWidth="200" cvsHeight="200" limitTime="10" bindtimeOver="myEvent" stopCount="{{stopCount}}"></circleCountDown>
-  <text animation="{{paeAnimation}}" bindtap="stopCount">111111</text>
+   <view class="page-title">XXK小程序公共UI组件库</view>
+   <view class="ui-list flex-row flex-wrap pd-all-md">
+      <text class="ui-item" data-key='countDown' bindtap="pageJump">倒计时</text>
+      <text class="ui-item" data-key='button' bindtap="pageJump">按钮</text>
+   </view>
 </view>

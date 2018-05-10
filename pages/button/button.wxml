@@ -1,0 +1,23 @@
+<!--pages/button/button.wxml-->
+<view class="pd-all-md">
+  <view class="flex-col vertical-start ">
+    <text class="ft36">radius:选填，圆角大小</text>
+    <text class="ft36">height:选填，按钮高度</text>
+    <text class="ft36">bgColor:必填，按钮颜色，hollow属性为false的时候生效</text>
+    <text class="ft36">fontColor:选填，文字颜色,不传默认为黑色</text>
+    <text class="ft36">fontSize:选填，文字大小,不传默认为30rpx</text>
+    <text class="ft36">title:必填，按钮文字,</text>
+    <text class="ft36">openType:选填，对接小程序原生按钮的开放功能,传了openType之后</text>
+    <text class="ft36">disabled:选填，是否禁用按钮，默认为false，</text>
+    <text class="ft36">buttonTap:必填，按钮点击事件</text>
+    <text class="ft36">dataKey:选填，传入的自定义data-key属性</text>
+    <text class="ft36">hollow:选填，不填的时候为实心按钮，当值为true的时候为空心按钮</text>
+    <text class="ft36">borderColor:选填，边框颜色，当hollow为true时生效</text>
+  </view>
+  <Button title="开始" bindbuttonTap="btnClick" dataKey="onece"></Button>
+  <Button title="开始" hollow="{{true}}" borderColor="#f00" fontColor="#f00" bindbuttonTap="btnClick" dataKey="two" openType="contact"></Button>
+  <Button title="开始" height="90" radius="45" hollow="{{true}}" borderColor="#f00" fontColor="#f00" bindbuttonTap="btnClick" openType="getUserInfo" dataKey="two"></Button>
+  <Button title="开始" bgColor="#f00" fontColor="#fff" bindbuttonTap="btnClick" dataKey="two"></Button>
+  <Button title="开始" bgColor="#f00" fontColor="#06c" height="90" radius="20" bindbuttonTap="btnClick" dataKey="two"></Button>
+  <Button title="开始" bgColor="#000" fontColor="#fff" fontSize="40" height="120" radius="60" bindbuttonTap="btnClick" dataKey="four" openType="getUserInfo"></Button>
+</view>

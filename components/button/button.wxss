@@ -1,0 +1,17 @@
+/* components/button/button.wxss */
+
+button{
+  text-align: center;
+  padding:0;
+  color:#333;
+  font-size:30rpx;
+}
+button::after{
+  display:none;
+}
+button::before{
+  display: none;
+}
+.button-hover{
+  opacity: 0.8;
+}

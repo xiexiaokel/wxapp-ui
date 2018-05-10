@@ -60,7 +60,7 @@ Component({
         })
         clearInterval(cutdown);
         setTimeout(()=>{
-          this.countOver();
+          this.timeOver();
           this.setData({
             showCount:false
           })
@@ -72,9 +72,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    countOver:function(){
+    timeOver:function(){
       console.log('倒计时结束，可以执行其他操作');
-      this.triggerEvent('countOver');
+      this.triggerEvent('timeOver');
     }
   }
 })

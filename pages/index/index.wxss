@@ -1,4 +1,16 @@
 /**index.wxss**/
-page{
-  background:#666;
+.page-title{
+  font-size:40rpx;
+  margin:30rpx 0;
+}
+.ui-list{
+
+}
+.ui-item{
+  border:1rpx #06c solid;
+  border-radius: 10rpx;
+  padding:15rpx 25rpx;
+  color:#fff;
+  margin:15rpx;
+  background:#06c;
 }
